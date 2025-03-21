@@ -76,6 +76,7 @@ button:active{
         height: inherit;
         background-image: url(background.jpeg);
         background-size: cover;
+        background-position: center;
         display: initial;
         justify-content: center;
         align-items: initial;
