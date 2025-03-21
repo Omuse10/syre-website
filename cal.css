@@ -86,7 +86,7 @@ button:active{
         max-width: 300px;
         width: 100px;
         height: 100px;
-        display: initial;
+        display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50px;
