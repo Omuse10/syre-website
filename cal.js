@@ -6,6 +6,10 @@ function appendToDisplay(input){
     display.value += input;
 }
 
+function backspace(){
+    display.value = display.value.slice(0, -1);
+}
+
 function clearDisplay(){
     display.value = "";
 }
