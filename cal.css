@@ -69,23 +69,24 @@ button:active{
 
 /* Media Query */
 
-@media screen and(min-width: 300px){
+@media only screen and (min-width: 240px) and (orientation: portrait){
     #calculator{
         max-width: 400px;
+        width: 100%;
+        height: inherit;
         background-image: url(background.jpeg);
         background-size: cover;
         display: initial;
         justify-content: center;
         align-items: initial;
-        height: 100vh;
         margin: 0 auto;
         background-color: whitesmoke;
     }
 
     button{
-        max-width: 300px;
-        width: 100px;
-        height: 100px;
+        max-width: 400px;
+        width: 100%;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -95,7 +96,6 @@ button:active{
         color: white;
         font-size: 2.5rem;
         font-weight: bold;
-        cursor: pointer;
     }
 
     #display{
